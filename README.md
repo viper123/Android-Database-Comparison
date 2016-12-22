@@ -9,6 +9,6 @@ your particular needs.
 After running this project on an Nexus 5 with Android 6.0 emulator we noticed the following results:
 - Realm is the fastest database solution;
 - greenDao is the second fastest however is the fastest ORM being faster then SugarRecord;
-- Realm and greenDao both supports encryption with AES 256(greenDao is using Sqlcypher with has commercial and community edition);
+- Realm and greenDao both supports encryption with AES 256(greenDao is using Sqlcypher with commercial and community edition);
 - Realm has the best documentation. The documentation is up-to-date and easy to read and understand. On the other side greenDao's documentation
 is a little bit more hard to follow and is very easy to miss use the library and get very bad performance.

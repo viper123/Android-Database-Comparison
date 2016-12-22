@@ -16,7 +16,7 @@ public class OneOperationScenarion extends Scenario {
     private UserDao userDao;
 
     public OneOperationScenarion() {
-        super("GreenDao one operation");
+        super("greenDao one operation");
         this.userDao = GreenDaoSingleton.instance().session().getUserDao();
     }
 

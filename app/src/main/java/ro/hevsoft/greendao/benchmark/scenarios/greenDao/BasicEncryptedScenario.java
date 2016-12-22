@@ -19,7 +19,7 @@ public class BasicEncryptedScenario extends Scenario {
     UserDao userDao;
 
     public BasicEncryptedScenario() {
-        super("GreenDao Write 1000 read 1000 encrypted");
+        super("greenDao Write 1000 read 1000 encrypted");
         userDao = GreenDaoSingleton.instance().secureSession().getUserDao();
     }
 

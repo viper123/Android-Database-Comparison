@@ -19,7 +19,7 @@ public class BasicDataAccessScenario extends Scenario {
     private UserDao userDao;
 
     public BasicDataAccessScenario(){
-        super("GreenDao Write 1000 read 1000 in a block");
+        super("greenDao Write 1000 read 1000 in a block");
         this.userDao = GreenDaoSingleton.instance().session().getUserDao();
     }
 

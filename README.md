@@ -14,4 +14,4 @@ After running this project on an Nexus 5 with Android 6.0 emulator we noticed th
 is a little bit more hard to follow and is very easy to miss use the library and get very bad performance.
 
 
-![alt tag](https://raw.githubusercontent.com/viper123/Android-Database-Comparison/blob/master/Screenshot_1482420732.png)
+![alt tag](https://github.com/viper123/Android-Database-Comparison/blob/master/Screenshot_1482420732.png)
